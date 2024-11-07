@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Başlıca Selektörler</title>
+    <style>
+        /* element selector */
+        h1,
+        h2 {
+            background-color: black;
+            color: white;
+        }
+
+
+        /* class selector */
+        .ezgi {
+            border-left: 10px solid green;
+        }
+
+        /* id selector */
+        #kunefe {
+            border-left: 10px solid goldenrod;
+        }
+
+        li {
+            border-left: 10px solid black;
+        }
+
+        ul {
+            list-style-type: "🍰 ";
+        }
+
+        /* pseudo-class selectors */
+        li:nth-child(odd) {
+            background-color: rgb(200, 200, 200);
+        }
+
+        /* pseudo-class selectors */
+        li:nth-child(even) {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Seçicileri (Selectors)</h1>
+
+    <h2>Tatlılar</h2>
+    <ul>
+        <li>kadayıf</li>
+        <li class="ezgi">sütlaç</li>
+        <li>kazandibi</li>
+        <li id="kunefe">künefe</li>
+        <li class="ezgi">baklava</li>
+        <li>brownie</li>
+        <li>profiterol</li>
+        <li>irmik helvası</li>
+        <li>kaymaklı ekmek kadayıfı</li>
+        <li>laz böreği</li>
+        <li>güllaç</li>
+    </ul>
+</body>
+
+</html>
