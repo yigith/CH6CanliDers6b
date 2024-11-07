@@ -8,7 +8,7 @@
         /* element selector */
         h1,
         h2 {
-            background-color: black;
+            background-color: #4964b4;
             color: white;
         }
 
@@ -40,6 +40,24 @@
         li:nth-child(even) {
             background-color: #fafafa;
         }
+
+        p {
+            background-color: yellow;
+        }
+
+        /* divin hemen içindeki paragraf */
+        div>p {
+            background-color: aqua;
+        }
+
+        /* irmikten hemen sonraki li */
+        .irmik+li {
+            color: red;
+        }
+
+        .irmik~li {
+            font-style: italic;
+        }
     </style>
 </head>
 
@@ -55,11 +73,19 @@
         <li class="ezgi">baklava</li>
         <li>brownie</li>
         <li>profiterol</li>
-        <li>irmik helvası</li>
+        <li class="irmik">irmik helvası</li>
         <li>kaymaklı ekmek kadayıfı</li>
         <li>laz böreği</li>
         <li>güllaç</li>
     </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, molestias!</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex impedit expedita perferendis.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ex, ipsam dolores doloribus deserunt nisi magni fuga rem corporis debitis.</p>
+    </div>
 </body>
 
 </html>

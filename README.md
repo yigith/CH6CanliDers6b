@@ -13,4 +13,5 @@ https://www.w3schools.com/css/
    - Kutu Modeli (box model)
    - Metin ve Font
 4. Tarayıcıda Geliştirici Araçları
+   (F12 ya da CTRL+SHIFT+I)
 5. Geliştirme Yol Haritası
